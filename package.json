@@ -1,0 +1,51 @@
+{
+  "name": "webstarter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraptama/webstarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indraptama/webstarter/issues"
+  },
+  "homepage": "https://github.com/indraptama/webstarter#readme",
+  "devDependencies": {
+    "autoprefixer-core": "latest",
+    "browser-sync": "latest",
+    "browserify": "latest",
+    "css-mqpacker": "latest",
+    "cssnext": "latest",
+    "duo": "latest",
+    "gulp": "latest",
+    "gulp-csso": "latest",
+    "gulp-gh-pages": "latest",
+    "gulp-jade": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-postcss": "latest",
+    "gulp-uglify": "latest",
+    "lost": "latest",
+    "map-stream": "latest",
+    "postcss-bem-linter": "latest",
+    "postcss-color-alpha": "latest",
+    "postcss-easings": "latest",
+    "postcss-focus": "latest",
+    "postcss-import": "latest",
+    "riotify": "latest",
+    "through2": "latest",
+    "vinyl-buffer": "latest",
+    "vinyl-source-stream": "latest",
+    "watchify": "latest"
+  },
+  "dependencies": {
+    "suitcss-base": "^0.8.0",
+    "superagent": "latest"
+  }
+}

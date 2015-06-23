@@ -1,0 +1,15 @@
+@import "suitcss-base";
+
+html {
+    background-color: #fcfcfc;
+}
+
+body {
+    font-size: .87rem;
+    font-family: 'clear sans';
+    color: rgba(#000, 0.87)
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Clear Sans';
+}
