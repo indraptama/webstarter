@@ -18,6 +18,8 @@ var bemLinter = require('postcss-bem-linter');
 var postEasing = require('postcss-easings');
 var postFocus = require('postcss-focus');
 var hexrgba = require('postcss-color-alpha');
+var MS = require('postcss-modular-scale');
+
 
 // browserify
 var browserify = require('browserify');
@@ -55,6 +57,7 @@ gulp.task('css', function() {
         postEasing(),
         postFocus(),
         hexrgba(),
+        MS(),
         cssnext(),
         lost(),
         autoprefixer({browsers: ['last 3 version']}),

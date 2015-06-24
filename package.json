@@ -38,6 +38,7 @@
     "postcss-easings": "latest",
     "postcss-focus": "latest",
     "postcss-import": "latest",
+    "postcss-modular-scale": "^2.4.0",
     "riotify": "latest",
     "through2": "latest",
     "vinyl-buffer": "latest",
